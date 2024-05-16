@@ -1,0 +1,52 @@
+body {
+    background-color: rgb(100, 90, 90);
+}
+
+.container {
+    width: 500px;
+    height: 500px;
+    background-color: rgb(221, 218, 215);
+    margin: 50px auto;
+}
+
+.slider {
+    align-items: center;
+    margin: 0 100px;
+    width: 250px;
+    height: 2px;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 0px;
+    background-color: blueviolet;
+}
+
+.container1 {
+    margin: 0 130px;
+    font-size: large;
+
+}
+
+.btn {
+    width: 250px;
+    height: 40px;
+    margin: 0 100px;
+    background-color: dodgerblue;
+    font-size: 19px;
+}
+
+.box1 {
+
+    background-color: darkgrey;
+    display: inline;
+}
+
+.box3 {
+    display: inline;
+}
+
+.result {
+    margin: 0 130px;
+    font-size: large;
+}
