@@ -5,6 +5,8 @@ document.getElementById("slider2").addEventListener("input", () => {
     document.getElementById("box2").textContent = document.getElementById("slider2").value
 })
 
+let j = "gayathriiiiiiiiiiiiiiii"
+
 function calculate() {
     let h = Number(document.getElementById("slider2").value) / 100
     let weight = Number(document.getElementById("slider1").value)
